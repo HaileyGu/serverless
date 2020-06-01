@@ -32,10 +32,10 @@ https://www.npmjs.com/package/cdk-spa-deploy
 
 초기 설정은 cloudfront를 사용하지 않지만 cdk-spa-deploy 모듈은 클라우드 프론트 및 사용자 정의 도메인을 추가하는 것이 얼마나 쉬운 지 자세히 설명합니다.
 
-#### 유용한 명령어드
+#### 유용한 명령어들
 
 - npm run build
-- cpm run cdk synth - 콘솔에 cloudformation을 출력합니다.
+- cpm run cdk synth - cdk코드를 합성하여 cloudformation을 만들고 결과를 콘솔에 출력합니다.
 - npm run deploy - website 폴더를 빌드 한 후 s3에 배포합니다.
 
 ### buildspec.yml
